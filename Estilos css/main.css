@@ -65,23 +65,4 @@ body{
     padding: 30px 0;
 }
 
-.hero-box .btn-box{
-    margin-top: 60px;
-}
 
-.hero-box .cta-btn{
-    background: #fff;
-    margin: 30px;
-    padding: 15px 40px;
-    border-radius: 50px;
-    color: black;
-}
-
-.hero-box .cta-btn:hover{
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-.hero-box .demo{
-    background: transparent;
-    border: 1px solid #fff;
-}
