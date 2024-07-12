@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+#hero{
+    width: 100%;
+    height: 805px;
+    background: url(/Imagens\ carrousel/mohazus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.navbar .menu a:not(:last-child){
+    color: #fff;
+    margin-left: 20px;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    letter-spacing: 0.5px;
+}
+
+.navbar .menu a:not(:last-child):hover{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+.navbar .menu .btn-signup{
+    color: #fff;
+    margin-left: 20px;
+    padding: 10px 25px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+
+}
+
+.navbar .menu .btn-signup:hover{
+    background: #fff;
+    color: #2e2c2c;
+}
+
+.hero-box{
+    width: 50%;
+    margin-top: 200px;
+}
+
+.hero-box .hero-heading{
+    color: #fff;
+    font-size: 50px;
+    line-height: 65px;
+    font-family: "Titillium Web", sans-serif;;
+}
+
+.hero-box .hero-desc{
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 30px 0;
+}
+
+.hero-box .btn-box{
+    margin-top: 60px;
+}
+
+.hero-box .cta-btn{
+    background: #fff;
+    margin: 30px;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: black;
+}
+
+.hero-box .cta-btn:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hero-box .demo{
+    background: transparent;
+    border: 1px solid #fff;
+}
