@@ -11,7 +11,7 @@ body{
 
 #hero{
     width: 100%;
-    height: 100vh;
+    height: 805px;
     background: url(/Imagens\ carrousel/mohazus.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -30,7 +30,6 @@ body{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 100px;
-    
 }
 
 .navbar .menu a{
@@ -66,7 +65,7 @@ body{
     background: rgba(0, 0, 0, 0.75) transparent;
 }
 
-.hero-box {
+.hero-box{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -76,5 +75,6 @@ body{
 .radial-gradient {
     width: 100%;
     height: 100%;
-    background-image: radial-gradient( black 25%, transparent 100%);
+    padding: 10px;
+    background-image: radial-gradient(black 19%, transparent 100%);
   }
