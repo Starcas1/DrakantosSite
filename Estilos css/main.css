@@ -24,32 +24,49 @@ body{
     margin: 0 auto;
 }
 
-.cabecalho{
-    width: 100%;
-    height: 0;
-
-}
-
-.navbar{
+.cabecalho {
+    height: 80px;
+    background-color: black;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 100px;
-    background-image: radial-gradient(black 1%, transparent 100%);
-}
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 80px;
+    border-bottom: 1px solid #282828;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  
+  .cabecalho .logo img{
+    display: flex;
+    gap: 15px;
+    max-width: 150px;
+  }
+  
+  .cabecalho .menu {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .menu {
+    list-style-type: none;
+  }
 
-.navbar .menu a{
+  .cabecalho .menu li a {
+    padding: 30px;
     color: #fff;
-    margin-left: 40px;
-    font-size: 14px;
-    transition-duration: 0.4s;
-    letter-spacing: 0.5px;
-}
-
-.navbar .menu a:hover{
-    border-bottom: 2px solid #F4CF8B;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+  }
+  
+  .cabecalho .menu li a:hover {
     color: #F4CF8B;
-}
+    border-bottom: 2px solid #F4CF8B;
+    background-color: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(251,255,0,1) 100%);
+  }
+
 
 
 .hero-box{
