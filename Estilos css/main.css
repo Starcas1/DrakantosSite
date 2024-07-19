@@ -95,6 +95,9 @@ body{
     text-align: center;
 }
 
+.hero-desc{
+  margin-bottom: 10px;
+}
 
 .radial-gradient {
     width: 100%;
