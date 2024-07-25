@@ -112,46 +112,99 @@ body{
     background-image: radial-gradient(black 19%, transparent 100%);
   }
 
-  /***** herogrid css *****/ 
-  
-  .hero-grid{
-    background-size: cover;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1px;
-    margin: 0 auto;
-    max-width: 100%;
-    height: 100%;
-    padding: 10px;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-  }
-  
-  #hero-class{
-    width: 100%;
-    height: 100%;
-    background-color: #282828;
-  }
+/***** hero2 *****/ 
+
+.hero2{
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 3px #F4CF8B;
+  background-color: #000;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  padding-inline: 1.25rem;
+}
+
+.hero_left{
+  flex: 1;
+  text-align: center;
+  padding-top: 5%;
+}
 
 
-  .grid-item:nth-child(1){
-    grid-row: 1 / 2;
-  }
-  
+.hero_right{
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  max-width: 100%;
+}
 
-  .grid-item{
-    display: grid;
-  }
 
-  .grid-item img{
-    grid-column: 1;
-  }
+.hero_left, .hero_right{
+  height: 600px;
+  flex: 1;
+}
 
-  .grid-item p{
-    padding: 10px;
-    color: #F4CF8B;
-    grid-column: 1;
-  }
-  /***** End herogrid css *****/
-  
+.hero_description{
+  margin-block: 1.25rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: calc(1em + 0.5rem);
+}
+
+.hero_button{
+  cursor: pointer;
+  background-color: #ffff;
+  border: 1;
+  padding: 0.5em 2em;
+  border-radius: 6px;
+  color: #080808;
+  margin-top: 10px;
+}
+
+button{
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #000;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+.hero_button:hover{
+  background-color: #F4CF8B;
+  color: black;
+  transition: 1s;
+}
+
+.hero_img{
+  max-width: 100%;
+  height: 100%;
+}
+/***** End hero2 *****/
