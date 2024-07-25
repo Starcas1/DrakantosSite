@@ -41,6 +41,7 @@ body{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 1;
   }
   
   .cabecalho .logo img{
@@ -76,8 +77,9 @@ body{
 
 
 .hero-box{
+  max-width: 100%;
     width: 50%;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .hero-box .hero-heading{
@@ -85,6 +87,17 @@ body{
     font-size: 50px;
     line-height: 65px;
     font-family: "Titillium Web", sans-serif;;
+}
+
+.wish-button{
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.51);
+  border-radius: 7px;
+}
+
+.wish-button:hover{
+  background-color: rgba(0, 0, 0, 0.51);
+  color: #fff;
 }
 
 .hero-box{
@@ -105,13 +118,6 @@ body{
   margin-bottom: 10px;
 }
 
-.radial-gradient {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    background-image: radial-gradient(black 19%, transparent 100%);
-  }
-
 /***** hero2 *****/ 
 
 .hero2{
@@ -127,7 +133,7 @@ body{
 .hero_left{
   flex: 1;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 40px;
 }
 
 
